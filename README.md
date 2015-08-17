@@ -7,4 +7,5 @@ This app has a collection created for the 'article' content type from Drupal. Yo
 #### Drupal DDP
 
 Drupal Module - https://www.drupal.org/sandbox/bfodeke/2354859
+
 Meteor Package - https://github.com/hb5co/drupal-ddp
