@@ -1,0 +1,26 @@
+<head>
+  <title>meteor_ddp_demo</title>
+</head>
+
+<body>
+  <h1>Welcome to Meteor!</h1>
+
+  {{> articleList}}
+</body>
+
+
+<template name="articleList">
+  <h3>List of Articles from Drupal</h3>
+
+  {{#each articles}}
+    {{> article}}
+  {{/each}}
+</template>
+
+<template name="article">
+  <div class="article">
+    <strong>{{title}}</strong>
+    <hr />
+    {{{body.value}}}
+  </div>
+</template>

@@ -1,0 +1,15 @@
+{
+  "public": {
+    "drupal_ddp_access_private_files": false
+  },
+  "drupal_ddp": {
+    "debug_data": true,
+    "ddp_url": "http://drupal.url",
+    "restws_user": "restws_demo",
+    "restws_pass": "your_password",
+    "restws_read_user": "restws_readonly_xxxxx",
+    "restws_read_pass": "your_password",
+    "simple_security": false,
+    "simple_security_token": "your_secure_token"
+  }
+}
